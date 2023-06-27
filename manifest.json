@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "DC Tabs saver and loader",
+  "description": "Extension to save all the tabs and can load it later",
+  "version": "1.0",
+  "action": {
+    "default_popup": "main.html",
+    "default_icon": "images/dc-48.png"
+  },
+  "permissions": [
+    "tabs"
+  ],
+  "icons": { "16": "images/dc-16.png",
+    "48": "images/dc-48.png",
+    "128": "images/dc-128.png" }
+}
